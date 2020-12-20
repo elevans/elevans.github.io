@@ -1,0 +1,28 @@
+<section id="nav">
+    <div class="topnav">
+        <div class="nav-name" style="padding-top:0.5em;">
+            <a href="{{"/index | relative_url}}"><span style="color:#8ac826; font-size:50px; font-weight:600;">MEL </span><span style="color:#fe595e; font-size:50px; font-weight:600;">HAMMOND </span><span style="color:#1a81c4; font-size:50px; font-weight:600;">BOOKS</span></a>
+            <a href="{{"/index" | relative_url}}">Home</a>
+            <a href="{{"/books" | relative_url}}">Books</a>
+            <a href="{{"/Downloads" | relative_url}}">About Mel</a>
+            <a href="{{"/Introduction" | relative_url}}">What's up</a>
+            <a href="{{"/categories" | relative_url}}">Contact</a>
+        </div>
+        <div id="ham-nav" class="ham-drop" onclick="hamActivate(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <div id="drop-menu" class="ham-drop-content">
+                <a href="{{"/index" | relative_url}}">Home</a>
+                <a href="{{"/search" | relative_url}}" class="icon solid fa-search">Search</a>
+                <a href="{{"/Downloads" | relative_url}}">Downloads</a>
+                <a href="{{"/Introduction" | relative_url}}">Learn</a>
+                <a href="{{"/categories" | relative_url}}">Browse</a>
+                <a href="{{"/Development" | relative_url}}">Develop</a>
+                <a href="{{"/News" | relative_url}}">News</a>
+                <a href="{{"/Upcoming_Events" | relative_url}}">Events</a>
+                <a href="{{"/Help" | relative_url}}">Help</a>
+            </div>
+        </div>
+    </div>
+</section>
