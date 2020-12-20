@@ -727,10 +727,6 @@ body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_header_style_slide #main-h
     text-align: left;
 }
 
-.et_header_style_split span.logo_helper {
-    display: none;
-}
-
 .et_header_style_split nav#top-menu-nav, .et_header_style_split #top-menu, .et_header_style_split #top-header nav.et-menu-nav, .et_header_style_split #main-header nav.et-menu-nav, .et_header_style_split #top-header .et-menu, .et_header_style_split #main-header .et-menu {
     float: none;
 }
@@ -829,21 +825,10 @@ body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_header_style_slide #main-h
     transition: all 0.4s ease-in-out;
 }
 
-span.logo_helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    width: 0;
-}
-
 .et_vertical_nav .logo_container {
     height: auto;
     position: relative;
     padding: 0;
-}
-
-.et_vertical_nav span.logo_helper {
-    display: none;
 }
 
 .safari .centered-inline-logo-wrap {
@@ -4367,10 +4352,6 @@ body #main-content .et_builder_inner_content > p {
 
     .et_header_style_split #logo {
         max-height: 60px;
-    }
-
-    .et_vertical_nav span.logo_helper {
-        display: inline-block;
     }
 
     .et_vertical_nav.et_header_style_left .logo_container {
