@@ -257,7 +257,7 @@ br.clear {
 
 /* Navigation Bar */
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1115px) {
 
     .topnav {
         background-color: #ffffff;
@@ -292,10 +292,10 @@ br.clear {
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1115px) {
 
     .topnav {
-        background-color: #3f454b;
+        background-color: #ffffff;
     }
 
     .topnav a {
@@ -342,7 +342,7 @@ br.clear {
     .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
-        background-color: #f2f2f2;
+        background-color: #694b93;
         margin: 6px 0;
         transition: 0.4s;
     }
@@ -408,10 +408,6 @@ br.clear {
         display: block;
     }
 
-    .red-border {
-        #line copied from inspect work flow
-    }
-
     .grey-border {
     border: 1px solid#AAAAAA;
     }
@@ -430,6 +426,12 @@ br.clear {
         width: 100%;
     }
 
+    .image-inline {
+        display: inline-block;
+        margin: 0 0 2em 0;
+        max-width: 100%;
+    }
+
     .image-fit img {
         width: 100%;
     }
@@ -444,6 +446,18 @@ br.clear {
         display: block;
         margin: 0 auto;
         padding: 0.25em;
+    }
+
+    .image-column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    .image-row::after {
+        content:"";
+        clear: both;
+        display: table;
     }
 
 .et_vertical_nav #page-container:after {
