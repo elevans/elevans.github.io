@@ -1,23 +1,30 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-    <head>
-        <title>{{page.title}}</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
-    <body class="home page-template-default page page-id-8371 custom-background dbdb_divi_2_4_up desktop et_bloom et_monarch page-big-magic et_pb_button_helper_class et_fixed_nav et_show_nav et_primary_nav_dropdown_animation_fade et_secondary_nav_dropdown_animation_fade et_header_style_left et_pb_footer_columns4 et_cover_background et_pb_gutter et_pb_gutters3 et_pb_pagebuilder_layout et_smooth_scroll et_no_sidebar et_divi_theme et-db">
-        
-        {% include nav-bar %}
+	<head>
+		<title>{{page.title}}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-        <div id="page-container">
-            <div class="container">
-                {{content}}
-            </div>
-        </div>
+		{% include nav-bar %}
+			
+		<div id="content">
+			{{content}}
+		</div>
 
-        <!-- Scripts -->
-        {% include base-scripts %}
-        
-    </body>
+		<!-- Footer -->
+		{% include footer %}
+
+		<!-- Scripts -->
+		{% include base-scripts %}
+
+	</body>
 </html>
