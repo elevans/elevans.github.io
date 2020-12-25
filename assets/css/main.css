@@ -2401,6 +2401,11 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		.image-logo {
+			float: left;
+			padding-top: 0.5em;
+		}
+
 		.image-left {
 			float: left;
 			padding: 0 0.5em 0.5em 0;
@@ -2423,7 +2428,7 @@ input, select, textarea {
 		}
 
 		.image-left, .image-right {
-			max-width: 50%;
+			max-width: 40%;
 		}
 
 		.image-left img, .image-right img {

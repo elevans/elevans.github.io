@@ -1,13 +1,11 @@
 <section id="nav">
     <div class="topnav">
-        <div style="padding-top:0.5em;">
-            <a href="{{"/index | relative_url}}"><span style="color:#8ac826; font-size:50px; font-weight:600;">MEL </span><span style="color:#fe595e; font-size:50px; font-weight:600;">HAMMOND </span><span style="color:#1a81c4; font-size:50px; font-weight:600;">BOOKS</span></a>
+            <img src="images/logo/mel_logo.png" alt="Mel HAMMOND BOOKS" class=image-logo>
             <a href="{{"/index" | relative_url}}">Home</a>
             <a href="{{"/books" | relative_url}}">Books</a>
             <a href="{{"/about" | relative_url}}">About Mel</a>
             <a href="{{"/news" | relative_url}}">What's up</a>
             <a href="{{"/contact" | relative_url}}">Contact</a>
-        </div>
         <div id="ham-nav" class="ham-drop" onclick="hamActivate(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
