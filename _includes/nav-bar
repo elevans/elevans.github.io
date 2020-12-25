@@ -1,11 +1,11 @@
 <section id="nav">
     <div class="topnav">
-        <div class="nav-name" style="padding-top:0.5em;">
+        <div style="padding-top:0.5em;">
             <a href="{{"/index | relative_url}}"><span style="color:#8ac826; font-size:50px; font-weight:600;">MEL </span><span style="color:#fe595e; font-size:50px; font-weight:600;">HAMMOND </span><span style="color:#1a81c4; font-size:50px; font-weight:600;">BOOKS</span></a>
             <a href="{{"/index" | relative_url}}">Home</a>
             <a href="{{"/books" | relative_url}}">Books</a>
             <a href="{{"/about" | relative_url}}">About Mel</a>
-            <a href="{{"/update" | relative_url}}">What's up</a>
+            <a href="{{"/news" | relative_url}}">What's up</a>
             <a href="{{"/contact" | relative_url}}">Contact</a>
         </div>
         <div id="ham-nav" class="ham-drop" onclick="hamActivate(this)">
@@ -16,7 +16,7 @@
                 <a href="{{"/index" | relative_url}}">Home</a>
                 <a href="{{"/books" | relative_url}}">Books</a>
                 <a href="{{"/about" | relative_url}}">About Mel</a>
-                <a href="{{"/update" | relative_url}}">What's up</a>
+                <a href="{{"/news" | relative_url}}">What's up</a>
                 <a href="{{"/contact" | relative_url}}">Contact</a>
             </div>
         </div>

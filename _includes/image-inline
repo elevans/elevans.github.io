@@ -1,1 +1,0 @@
-<img class="image-inline" src="{{include.image_path}}" alt="{{include.name}}">

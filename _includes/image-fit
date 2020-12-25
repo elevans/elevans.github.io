@@ -1,1 +1,1 @@
-<img class="image-fit" src="{{include.image_path}}" alt="{{include.name}}">
+<img src="{{include.image_path}}" alt="{{include.name}}" class="image-fit {{include.classes}}">
